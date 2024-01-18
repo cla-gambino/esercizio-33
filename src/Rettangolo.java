@@ -1,4 +1,4 @@
-public class Rettangolo extends Forma{
+public class Rettangolo extends Forma {
 
     private double base;
 
@@ -10,8 +10,8 @@ public class Rettangolo extends Forma{
     }
 
     @Override
-    public void calcolaArea(){
+    public void calcolaArea() {
         double area = base * altezza;
-        System.out.println("per il rettangolo = " +area);
+        System.out.println("per il rettangolo = " + area);
     }
 }
